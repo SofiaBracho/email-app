@@ -1,6 +1,17 @@
-textarea {
-    min-height: 400px;
+body {
+    background: rgb(203, 138, 5);
+    background: linear-gradient(51deg, rgba(203, 138, 5, 1) 0%, rgba(255, 252, 4, 1) 48%, rgba(203, 161, 5, 1) 100%);
+    min-height: 100vh;
 }
+div.container {
+    min-height: 100vh;
+    background: white;
+    padding: 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* textarea {
+    min-height: 400px;
+} */
 .mail-container {
     display: flex;
     flex-direction: row;
@@ -29,4 +40,15 @@ textarea {
 }
 .details-el b {
     margin-right: .5rem;
+}
+#details-view button.btn.btn-sm {
+    margin-top: 1rem;
+}
+#compose-view input[type="submit"].btn {
+    margin-top: 1rem;
+}
+#body {
+    white-space: pre-wrap;
+    font-family: inherit;
+    font-size: 1rem !important;
 }

@@ -62,16 +62,16 @@ function email_details(id) {
         replyBtn.style.display = 'none'
       } else {    
         // Show reply btn
-        replyBtn.style.display = 'block'
+        replyBtn.style.display = 'inline-block'
         
         // If the email is not archived show archive button, else, show unarchive
         if (result.archived == false) {
-          archiveBtn.style.display = 'block'
+          archiveBtn.style.display = 'inline-block'
           unarchiveBtn.style.display = 'none'
         } 
         else {
           archiveBtn.style.display = 'none'
-          unarchiveBtn.style.display = 'block'
+          unarchiveBtn.style.display = 'inline-block'
         }
       }
 
